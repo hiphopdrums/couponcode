@@ -1,0 +1,42 @@
+/* Popup Styling */
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    background-color: #FFE7F1; /* White background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center;
+}
+
+.popup-content img {
+    max-width: 300px; /* Adjust the maximum width of the image */
+    max-height: 300px; /* Adjust the maximum height of the image */
+}
+
+.popup-content h2 {
+    color: #F12172; /* Pink color for heading */
+}
+
+.popup-content p {
+    color: #F12172; /* Dark gray color for paragraph */
+    margin-bottom: 20px;
+}
+
+.popup-content button {
+    background-color: #F12172; /* Pink background color for button */
+    color: white; /* White text color for button */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.popup-content button:hover {
+    background-color: #ff4d8a; /* Light pink hover color */
+}
